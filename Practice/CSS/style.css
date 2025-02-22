@@ -1,0 +1,55 @@
+
+
+#SID{
+    background-color: brown;
+}
+#All{
+    color:blueviolet;
+    background-color:darkgoldenrod;
+}
+
+.Class{
+    color:blueviolet;
+}
+
+p.EC{
+    color:blue;
+}
+
+p,h1{
+    color:rgba(255, 0, 166, 0.233);
+}
+
+*{
+    background-color:azure;
+}
+
+
+
+
+
+
+#Prop1{
+    background-color:darkolivegreen;
+    border: 10px solid;
+    margin: 10px;
+}
+
+#Prop2{
+    background-color:darkolivegreen;
+    border: 10px solid;
+    margin: 30px;
+}
+
+#Prop3{
+    background-color:darkolivegreen;
+    border: 30px solid;
+    margin: 10px;
+}
+
+#Prop{
+    background-color:darkolivegreen;
+    border: 30px solid;
+    margin: 30px;
+}
+

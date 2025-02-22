@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vamsi Bhavani - Practice</title>
+
+    <!--I had applied CSS Styling here, either you can create a seperate CSS file or you can write it here if it is small as how I had done here-->
+    <style>
+        table, th, td{
+            border:1px solid black;
+            border-collapse: collapse;
+        }
+
+        td{
+            padding: 15px;
+        }
+        th{
+            text-align: left;
+        }
+
+    </style>
+    <!-- border-collapse: collapse is the extra CSS property to use -->
+
+</head>
+<body>
+  <h1>Student details</h1>
+
+   
+     <form>
+        <!--create a form asking our name(field) and age(field)-->
+        <label for="name">Name</label><!--label tag-->
+        <br><!--break tag-->
+        <input type="text" id="name" name="name"><!--name and id is no need to be same, as our wish-->
+        <br>
+
+        <label for="age">Age</label>
+        <br>
+        <input type="text" id="age" name="age">
+        <br>
+
+        <label>Gender</label>
+        <br>
+        <input type="radio" name="gender" value="Male">
+        <label for="Male">Male</label><br>
+        <input type="radio" name="gender" value="Female">
+        <label for="Female">Female</label><br>
+        <input type="radio" name="gender" value="Prefer Not to Say">
+        <label for="Not to say">PNTS</label>
+     </form>
+
+
+</body>
+</html>
