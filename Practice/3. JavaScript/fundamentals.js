@@ -41,3 +41,13 @@ console.log(bool2);
 console.log(bool3);
 console.log(bool4);
 
+//Operators 
+//Type - 1:
+let p = 2, q = 5;
+console.log(p + q);
+//Type - 1:
+let x = 2, y = 4;
+let z = x + y;
+console.log(z);
+//Type - 3:
+console.log(2 + 3);
